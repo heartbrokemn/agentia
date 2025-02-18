@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-background{
+    background-image:url('../../public/images/logo3.webp');
+  }
+
+.glow-text {
+      text-shadow: 0 0 10px #b204fc, 0 0 20px #8608FF, 0 0 40px #8608FF;
+    }
+    
+    .flip-horizontal {
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+  }
+  
+  .flip-horizontal:hover {
+      transform: rotateY(180deg);
+  }
