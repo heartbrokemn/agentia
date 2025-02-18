@@ -45,7 +45,7 @@ const Technology = () => {
             rel="noopener noreferrer"
             className='border border-purple-500 rounded-xl shadow-lg flex flex-col items-center justify-center w-60 h-60 transition-transform duration-300 hover:shadow-[0_0_20px_5px_rgba(134,8,255,0.8)] hover:scale-110'
           >
-            <Image src={teach.logo} alt={teach.name} width={teach.width} height={80} />
+            <Image src={teach.logo} alt={teach.name}   width={parseInt(teach.width)}  height={80} />
             <p className='mt-4 text-xl font-semibold'>{teach.name}</p>
           </a>
         ))}
